@@ -27,5 +27,6 @@
     "gh-pages": "^6.3.0",
     "globals": "^17.4.0",
     "vite": "^8.0.1"
-  }
+  },
+  "homepage": "https://aloha-maker.github.io/Landing-Page-demo/"
 }
