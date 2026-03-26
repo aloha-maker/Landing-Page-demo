@@ -18,7 +18,8 @@ function App() {
 
   const handleAddTodo = () => {
     // タスクを追加する
-    const name = todoNameRef.current.value
+    const name = todoNameRef.current.value;
+    if(name === "") return;
     setTodos((prevTodos) =>{
       return [...prevTodos, {id:uuidv4(),name:name,completed:false}]
       
