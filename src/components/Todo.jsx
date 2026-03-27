@@ -10,11 +10,11 @@ const Todo = ({ todo, toggleTodo }) => {
       <label>
         <input 
           type="checkbox" 
-          checked={todo.completed} 
+          checked={todo.is_complete} 
           readOnly={false}
           onChange={handleTodoClick} // これで完成！
         />
-        {todo.name}
+        {todo.title}
       </label>
     </div>
   )
